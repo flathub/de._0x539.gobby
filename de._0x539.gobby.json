@@ -77,15 +77,19 @@
         },
         {
             "name": "libgsasl",
+            "cleanup": [
+                "/bin",
+                "/share/info"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/gsasl/libgsasl-1.10.0.tar.gz",
-                    "sha256": "f1b553384dedbd87478449775546a358d6f5140c15cccc8fb574136fdc77329f",
+                    "url": "https://ftp.gnu.org/gnu/gsasl/gsasl-2.2.0.tar.gz",
+                    "sha256": "79b868e3b9976dc484d59b29ca0ae8897be96ce4d36d32aed5d935a7a3307759",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 260219,
-                        "url-template": "https://ftp.gnu.org/gnu/gsasl/libgsasl-$version.tar.gz"
+                        "project-id": 1563,
+                        "url-template": "https://ftp.gnu.org/gnu/gsasl/gsasl-$version.tar.gz"
                     }
                 }
             ]
