@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libxml++/2.42/libxml++-2.42.3.tar.xz",
-                    "sha256": "74b95302e24dbebc56e97048e86ad0a4121fc82a43e58d381fbe1d380e8eba04",
+                    "url": "https://download.gnome.org/sources/libxml++/2.91/libxml++-2.91.3.tar.xz",
+                    "sha256": "f9f910cacd1d07c71679eeea36ae018189b72b4b7dd11511a76562377ed4d06a",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libxml++",
