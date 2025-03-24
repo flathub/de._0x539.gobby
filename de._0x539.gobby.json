@@ -68,8 +68,9 @@
                         "name": "libxml++",
                         "//": "libxml++ 3+ is not API compatible",
                         "versions": {
-                            "<": "2.92.0"
+                            "<": "2.91.0"
                         },
+                        "version-scheme": "odd-minor-is-unstable",
                         "stable-only": true
                     }
                 }

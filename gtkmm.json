@@ -9,6 +9,7 @@
             "x-checker-data": {
                 "type": "gnome",
                 "name": "gtkmm",
+                "version-scheme": "odd-minor-is-unstable",
                 "versions": {
                     "<": "3.25"
                 }
@@ -44,6 +45,7 @@
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libsigc++",
+                        "version-scheme": "odd-minor-is-unstable",
                         "//": "later versions are incompatible with gtkmm3.24",
                         "versions": {
                             "<": "2.11"
@@ -72,6 +74,7 @@
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "glibmm",
+                        "version-scheme": "odd-minor-is-unstable",
                         "//": "later versions have ABI break",
                         "versions": {
                             "<": "2.67"
@@ -131,6 +134,7 @@
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "pangomm",
+                        "version-scheme": "odd-minor-is-unstable",
                         "versions": {
                             "<": "2.47"
                         }
@@ -156,6 +160,7 @@
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "atkmm",
+                        "version-scheme": "odd-minor-is-unstable",
                         "versions": {
                             "<": "2.35"
                         }
