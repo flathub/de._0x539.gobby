@@ -45,6 +45,13 @@
                         },
                         "stable-only": true
                     }
+                },
+                {
+                    "type": "patch",
+                    "//": "All but the last two patches were already accepted upstream",
+                    "paths": [
+                        "patches/gtksourceview/0001-gtksourceview-Add-typecast-when-setting-source_buffe.patch"
+                    ]
                 }
             ]
         },
